@@ -1,0 +1,12 @@
+#punching-bag {
+    position: relative;
+    width: 200px;
+}
+#bag-image {
+    width: 100%;
+}
+#health-bar {
+    height: 20px;
+    background-color: rgb(250, 8, 8);
+    width: 100%;
+}
