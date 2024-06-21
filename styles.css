@@ -1,12 +1,26 @@
 #punching-bag {
-    position: relative;
-    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
 }
+
 #bag-image {
+    width: 60%;
+}
+#health-bar-container {
+    border: 1px solid #000; /* Add a 1px solid black border */
     width: 100%;
 }
+
 #health-bar {
     height: 20px;
     background-color: rgb(250, 8, 8);
     width: 100%;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 5px;
+    font-size: 12px;
 }
